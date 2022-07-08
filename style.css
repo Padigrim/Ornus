@@ -1,0 +1,51 @@
+body {
+    background-color: #01171b;
+}
+/* Silent Shores */
+
+#Silent_Shores:hover {
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/* Unsworn Realm */
+
+#Unsworn_Realm:hover {
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/* Eastern Lands */
+
+#Eastern_Lands:hover {
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/* Midar */
+
+#Midar:hover {
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/* Gristolk */
+
+#Gristolk:hover {
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+/* The Southern Isles */
+
+#The_Southern_Isles:hover {
+    fill: #006284;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
