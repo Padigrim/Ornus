@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url("img/MapTest.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Loader */
+
+.loader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #191919;
+}
+
+/* Beginning notice */
+
+#notice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 5in;
+    width: 7in;
+    background-size: 100%;
+    background-image: url("img/notice.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+}
+
+#noticeExit {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(243, 237, 220, 0.6);
+}
+
+#noticeInner {
+    height: 100%;
+    width: 100%;
+}
+
+#noticeInner:hover {
+    background-size: 50%;
+    background-image: url("img/noticeClose.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+    /* Transition */
+    animation: fadeIn ease 1s;    
+}
+
+.noticeVisibility {
+  display: none;
+}
+
+@keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+}
+
+/* Map Movement Div */
+
+#ornusMap {
+    height: 100%;
+    width: 100%;
+    background-image: url("img/MapTest.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+}
+

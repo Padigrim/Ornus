@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title> Ornian World Map </title>
+    
+    <link rel="stylesheet" href="style.css" type=text/css />
+    <script type="text/javascript" src="js/backend.js" defer></script>
+    <script type="text/javascript" src="js/popup.js" defer></script>
+</head>
+
+<body>
+    <!-- Loading page -->
+    
+    <div class="loader" id="loader_1">
+        <script src="js/lottie.js"></script>
+        <script src="js/loader.js"></script>
+    </div>
+
+    <!-- <div id="ornusMap"></div> -->
+
+    <div id="noticeExit" class="noticeVisibility">
+        <div id="notice" class="noticeVisibility"></div>
+        <a href="#" onclick="Hide(noticeExit);">
+            <audio id="audioNotice" controls hidden>
+                <source src="assets/closeNotice.mp3" type="audio/mp3">
+            </audio>
+            <div id="noticeInner"></div>
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>
