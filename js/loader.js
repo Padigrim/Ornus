@@ -6,10 +6,14 @@ var animation = bodymovin.loadAnimation({
     path: 'loader.json'
 });
 
+var loader = document.getElementById('loader');
+
 window.addEventListener('load', (event) => {
     setTimeout (function() {
-        let loader = document.getElementById('loader');
-        
-        loader.style.display = "none";
+        loader.style.transition = '.5s';
+        loader.style.opacity = '0';
+        setTimeout (function() {
+            loader.style.display = "none";
+        }, 500);
     }, 5120);
 })
