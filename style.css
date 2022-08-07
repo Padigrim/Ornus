@@ -31,8 +31,14 @@ body::-webkit-scrollbar {
   width: 7in;
 }
 
-.loaderInner > svg {
-  transform: scale(0.50);
+.loaderInner1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 7in;
+  width: 7in;
+  display: none;
 }
 
 /* Beginning notice */
